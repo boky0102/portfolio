@@ -18,12 +18,30 @@ workBtn.onclick = () => {
     work.scrollIntoView(({behavior: "smooth", block: "end"}))
 }
 
+var currentColorIndex = 1;
+
+const colors = [
+    {
+        background: "#EAD2AC",
+        circle: "#EABA6B"
+    },
+    {
+        background: "#2DC7FF",
+        circle: "#EAD2AC"
+    },
+    {
+        background: "#EAD2AC",
+        circle: "#2DC7FF"
+    }
+]
+
 
 
 container.onscroll = () => {
-    var scrollPos = container.pageYOffset;
-    console.log(scrollPos);
-    background.style.backgroundColor = "#EAD2AC"
-    circle.style.backgroundColor = "#EABA6B"
-    separator.style.backgroundColor = "#EABA6B"
+
+    background.style.backgroundColor = colors[0].background;
+    circle.style.backgroundColor = colors[0].circle;
+    separator.style.backgroundColor = colors[0].circle;
+        
 }
+

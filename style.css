@@ -14,6 +14,10 @@ body{
     
 }
 
+a{
+    text-decoration: none;
+}
+
 
 
 .content{
@@ -138,6 +142,12 @@ h2{
     margin-top: 20px;
 }
 
+h3{
+    font-size: 45px;
+    font-weight: 600;
+    font-family: var(--font);
+}
+
 /* BUTTONS STYLING */
 
 .button-wrap{
@@ -161,3 +171,74 @@ h2{
     cursor: pointer;
 }
 
+
+.app-image{
+    width: 387px;
+    height: 207px;
+}
+
+.app-wrap{
+    width: 80%;
+}
+
+.app-buttons{
+    display: flex;
+    
+    
+}
+
+.app-btn{
+    width: 150px;
+    height: 50px;
+    background-color: var(--sec-light);
+    font-family: var(--font);
+    font-weight: 500;
+    margin-right: 50px;
+    margin-top: 20px;
+    border-style: none;
+    border: 3px solid #00ABE7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: all 0.3s ease-in-out;
+}
+
+.app-btn:hover{
+    background-color: #00ABE7;
+    cursor: pointer;
+}
+
+.btn-icon{
+    width: auto;
+    height: 60%;
+    margin-left: 10px;
+}
+
+.app-info{
+    font-size: 30px;
+    font-family: var(--font);
+    font-weight: 300;
+}
+
+.tech-wrap{
+    display: flex;
+    width: 100%;
+}
+
+.tech-container{
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    background-color: var(--sec-dark);
+    margin-right: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tech-icon{
+    width: 60%;
+    height: auto;
+}
