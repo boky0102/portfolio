@@ -202,7 +202,7 @@ h3{
     align-items: center;
     border-radius: 10px;
     font-size: 18px;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 .app-btn:hover{
@@ -241,4 +241,29 @@ h3{
 .tech-icon{
     width: 60%;
     height: auto;
+}
+
+.myskills-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.myskill-cont{
+    width: 150px;
+    height: 150px;
+    background-color: var(--sec-dark);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+
+.tech-title{
+    font-family: var(--font);
+    font-size: 20px;
+    margin: 0;
+    font-weight: 600;
 }
